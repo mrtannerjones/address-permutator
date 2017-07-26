@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/mrtannerjones/address-permutator/issues"
   },
-  "homepage": "https://github.com/mrtannerjones/address-permutator#readme"
+  "homepage": "https://github.com/mrtannerjones/address-permutator#readme",
+  "dependencies": {
+    "titlecase": "^1.1.2"
+  }
 }
