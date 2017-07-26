@@ -1,0 +1,25 @@
+{
+  "name": "address-permutator",
+  "version": "1.0.0",
+  "description": "Takes an address string, finds all USPS abbreviations within the string, and returns an array of all possible address strings based on potential use of USPS abbreviations",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/ALL.js -t 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrtannerjones/address-permutator.git"
+  },
+  "keywords": [
+    "address",
+    "permutations",
+    "combos",
+    "abbreviations"
+  ],
+  "author": "mrtannerjones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrtannerjones/address-permutator/issues"
+  },
+  "homepage": "https://github.com/mrtannerjones/address-permutator#readme"
+}
