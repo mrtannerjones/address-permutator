@@ -4,7 +4,7 @@
 const assert = require('chai').assert;
 const createPermutations = require('../lib/main.js').createPermutations
 
-it('make an array for each word in the string, including the original and any abbreviations or lengthenings', ()=>{
+it('create each possible combo of full address strings', ()=>{
     const arrayOfWordPairs = [['123'], ['North', 'N'], ['Main'], ['St', 'Street']]
     const expected = [
         "123 North Main St",

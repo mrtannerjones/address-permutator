@@ -4,7 +4,7 @@
 const assert = require('chai').assert;
 const main = require('../lib/main.js').main
 
-it('make an array for each word in the string, including the original and any abbreviations or lengthenings', ()=>{
+it('create each possible combo of address strings given an single addresss string', ()=>{
     const expected = [
         "123 North Main St",
         "123 N Main St",
